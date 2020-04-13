@@ -1,0 +1,26 @@
+﻿Build started 17-Feb-16 7:23:23 PM.
+     1>Project "C:\Users\tASO\Documents\Visual Studio 2013\Projects\filter\filter\filter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Image.cpp
+         Image.cpp
+     1>c:\users\taso\documents\visual studio 2013\projects\filter\filter\image.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\taso\documents\visual studio 2013\projects\filter\filter\array.h(75): warning C4018: '>' : signed/unsigned mismatch
+                 c:\users\taso\documents\visual studio 2013\projects\filter\filter\array.h(74) : while compiling class template member function 'const math::Vec3<float> &math::Array<math::Vec3<float>>::operator ()(int,int) const'
+                 c:\users\taso\documents\visual studio 2013\projects\filter\filter\image.cpp(35) : see reference to function template instantiation 'const math::Vec3<float> &math::Array<math::Vec3<float>>::operator ()(int,int) const' being compiled
+                 c:\users\taso\documents\visual studio 2013\projects\filter\filter\image.h(13) : see reference to class template instantiation 'math::Array<math::Vec3<float>>' being compiled
+     1>c:\users\taso\documents\visual studio 2013\projects\filter\filter\array.h(78): warning C4715: 'math::Array<math::Vec3<float> >::operator()' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tASO\Documents\Visual Studio 2013\Projects\filter\Debug\filter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tASO\Documents\Visual Studio 2013\Projects\filter\Debug\filter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tASO\Documents\Visual Studio 2013\Projects\filter\Debug\filter.lib" /MACHINE:X86 Debug\Blur.obj
+         Debug\Color.obj
+         Debug\Diff.obj
+         Debug\filter_main.obj
+         Debug\Gray.obj
+         Debug\Image.obj
+         Debug\Median.obj
+         Debug\ppm_format.obj
+         filter.vcxproj -> C:\Users\tASO\Documents\Visual Studio 2013\Projects\filter\Debug\filter.exe
+     1>Done Building Project "C:\Users\tASO\Documents\Visual Studio 2013\Projects\filter\filter\filter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.15
